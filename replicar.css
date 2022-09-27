@@ -111,8 +111,6 @@ header .menu div button span{
 main{
     padding-top: 150px;
     display: inline-block;
-    /* background-color: var(--light-color); */
-    /* position: relative; */
 }
 
 main .imagen{
@@ -355,7 +353,7 @@ main .imagen4 button:hover{
 }
 
 
-
+/* seccion de productos */
 main .productos{
     display: inline-block;
     margin-top: 75px;
@@ -374,20 +372,103 @@ main .contenedor2{
     justify-content:space-around;
     display: flex;
     align-items: center;
-    padding: 45px 140px;
+    padding: 35px 160px;
+}
+main .ventas1 span{
+    width: 380px;
+    height: 500px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border:none;
+    border-radius: 7px;
+    background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg");
 }
 
-/* main .ventas1 span{
-    width: 50px;
-    height: 50px;
-    background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg");
-} */
+main .ventas2 span{
+    width: 380px;
+    height: 500px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    border-radius: 7px;
+    background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e8542c1248e59128e08e3e9_ryan-holloway-JyDmUaXMib4-unsplash.jpg");
+}
+main .ventas3 span{
+    width: 380px;
+    height: 500px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    border-radius: 7px;
+    background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e85425605cae11f20d46181_denisse-leon-J7CjWufjmg4-unsplash.jpg");
+}
+main .ventas3 span button{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    width: 75px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13PX;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+main .ventas1 button{
+    width: 100px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    font-size: 15PX;  
+    border-color:rgba(0, 0, 0, 0%);
+    background-color:var(--primary-color);
+    color: var(--light-color);
+}
+main .ventas1 button:hover{
+    background-color: var(--secondary-color);
+}
+
+
+main .ventas2 button{
+    width: 100px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    font-size: 15PX;  
+    border-color:rgba(0, 0, 0, 0%);
+    background-color:var(--primary-color);
+    color: var(--light-color);
+}
+main .ventas2 button:hover{
+    background-color: var(--secondary-color);
+}
+
+
+
+main .ventas3 button{
+    width: 100px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    font-size: 15PX;  
+    border-color:rgba(0, 0, 0, 0%);
+    background-color:var(--primary-color);
+    color: var(--light-color);
+}
+main .ventas3 button:hover{
+    background-color: var(--secondary-color);
+}
 
 
 
 
-
-
+/* boton view all products */
 main .boton{
     width: 200px;
     height: 35px;
@@ -405,19 +486,8 @@ main .boton:hover{
 
 
 
-
+/* seccion shop local */
 main .shoplocal{
     background-color: var(--secondary-color);
     color:var(--light-color);
 }
-
-/* otro estilo chido */
-/* main .ventas{
-    width: 500px;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    border:none;
-    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
-} */
