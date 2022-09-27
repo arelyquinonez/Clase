@@ -377,6 +377,17 @@ main .contenedor2{
     padding: 45px 140px;
 }
 
+/* main .ventas1 span{
+    width: 50px;
+    height: 50px;
+    background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg");
+} */
+
+
+
+
+
+
 main .boton{
     width: 200px;
     height: 35px;
@@ -390,6 +401,10 @@ main .boton{
 main .boton:hover{
     background-color: var(--primary-color);
 }
+
+
+
+
 
 main .shoplocal{
     background-color: var(--secondary-color);
