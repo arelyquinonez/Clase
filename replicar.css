@@ -391,10 +391,10 @@ main .boton:hover{
     background-color: var(--primary-color);
 }
 
-/*main .shoplocal{
+main .shoplocal{
     background-color: var(--secondary-color);
     color:var(--light-color);
-}*/
+}
 
 /* main .ventas{
     width: 500px;
