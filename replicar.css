@@ -1,0 +1,407 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
+
+}
+
+:root{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position:fixed;
+    background-color: var(--primary-color);
+    
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 150px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-size: 15px;
+}
+
+header .covid p{
+    font-size: 18px;
+    
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    width: 70px;
+    height: 35px;
+    padding-top: 8px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    color:var(--light-color);
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url(c:/Users/quino/Downloads/carrito.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border:none;
+    position: relative;
+}
+
+header .menu div button span{
+    background-color: var(--light-color);
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+}
+
+main{
+    padding-top: 150px;
+    display: inline-block;
+    /* background-color: var(--light-color); */
+    /* position: relative; */
+}
+
+main .imagen{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border:none;
+    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");    
+}
+
+main .imagen h1{
+    display: block;
+    font-size: 60px;
+    padding-top:  140px;
+    padding-left: 175px;
+    color: var(--light-color);
+}
+
+main .imagen p{
+    display: block;
+    font-size: 17px;
+    padding-top:  20px;
+    padding-left: 175px;
+    line-height: 1.5;
+    color: var(--light-color);
+}
+
+main .imagen button{
+    width: 140px;
+    height: 35px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0%);
+    border-color: var(--light-color);
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 174px;
+    font-size: 15PX;
+    color: var(--light-color);   
+    transition: all 0.2s ease;
+}
+main .imagen button:hover{
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+}
+
+main .info{
+    width: 100%;
+    height: 800px;
+    /* background-color:var(--light-color); */
+}
+
+main .info div p span{
+    display: inline-block;
+    margin-top: 75px;
+    padding-left: 180px;
+    /* display: inline-block;
+    position: relative; */
+    font-size: 14px;
+}
+
+main .info div h2{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 180px;
+    /* display: inline-block;
+    position: absolute; */
+    font-size: 40px;
+}
+
+main .covi{
+    display: block;
+    font-size: 15px;
+    padding-left: 800px;
+    margin-top: -70px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+main .contenedor{
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    padding: 45px 140px;
+}
+
+main .cuadro1{
+    width: 350px;
+    height: 355px;
+    border-radius: 5px;
+    color: var(--light-color);
+    display: inline-block;
+    background-color: var(--secondary-color);
+}
+main .cuadro1 span{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 35px;
+}
+main .cuadro1 h3{
+    color: var(--light-color);
+    padding-top: 50px;
+    line-height: 1.2;
+    font-size: 35px;
+    text-align: center;
+}
+main .cuadro1 p{
+    font-size: 14.5px;
+    color: var(--dark-color);
+    margin-top: -50px;
+    line-height: 1.5;
+    display: inline-block;
+}
+main .imagen1{
+    margin-left: 270px;
+    margin-top: 50px;
+    color: var(--light-color);
+}
+
+
+
+main .cuadro2{
+    width: 350px;
+    height: 355px;
+    border-radius: 5px;
+    color: var(--light-color);
+    display: inline-block;
+    background-color: var(--secondary-color);
+}
+main .cuadro2 span{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 35px;
+}
+main .cuadro2 h3{
+    color: var(--light-color);
+    padding-top: 70px;
+    line-height: 1.2;
+    font-size: 35px;
+    text-align: center;
+}
+main .cuadro2 p{
+    font-size: 14.5px;
+    color: var(--dark-color);
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: -30px;
+}
+main .imagen2{
+    margin-left: 230px;
+    margin-top: 80px;
+    color: var(--light-color);
+}
+
+
+
+main .cuadro3{
+    width: 350px;
+    height: 355px;
+    border-radius: 5px;
+    color: var(--light-color);
+    display: inline-block;
+    background-color: var(--secondary-color);
+}
+main .cuadro3 span{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 35px;
+}
+main .cuadro3 h3{
+    color: var(--light-color);
+    padding-top: 60px;
+    line-height: 1.2;
+    font-size: 35px;
+    text-align: center;
+}
+main .cuadro3 p{
+    font-size: 14.5px;
+    display: block;
+    margin-top: -80px;
+    color: var(--dark-color);
+    line-height: 1.5;
+}
+main .imagen3{
+    margin-left: 270px;
+    margin-top: 40px;
+    color: var(--light-color);
+}
+
+
+main .imagen4{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border:none;
+    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");    
+}
+main .imagen4 h2{
+    display: block;
+    font-size: 45px;
+    padding-top:  160px;
+    margin-right: 150px;
+    text-align: end;
+    color: var(--light-color);
+}
+main .imagen4 p{
+    display: block;
+    font-size: 17px;
+    margin-right: 150px;
+    padding-top:  20px;
+    text-align: end;
+    line-height: 1.5;
+    color: var(--light-color);
+}
+main .imagen4 button{
+    width: 200px;
+    height: 35px;
+    display: block;
+    border-color: var(--secondary-color);
+    background-color:var(--light-color);
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 1160px;
+    font-size: 15PX;
+    color: var(--secondary-color);   
+    transition: all 0.2s ease;
+}
+main .imagen4 button:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+
+
+main .productos{
+    display: inline-block;
+    margin-top: 75px;
+    padding-left: 180px;
+    font-size: 14px;
+}
+
+main .open{
+    display: block;
+    margin-top: -40px;
+    padding-left: 180px;
+    font-size: 40px;
+}
+
+main .contenedor2{
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    padding: 45px 140px;
+}
+
+main .boton{
+    width: 200px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    font-size: 15PX;  
+    border-color:rgba(0, 0, 0, 0%);
+    background-color:var(--secondary-color);
+    color: var(--light-color);
+}
+main .boton:hover{
+    background-color: var(--primary-color);
+}
+
+/*main .shoplocal{
+    background-color: var(--secondary-color);
+    color:var(--light-color);
+}*/
+
+/* main .ventas{
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border:none;
+    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
+} */
