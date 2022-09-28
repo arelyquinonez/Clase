@@ -484,6 +484,14 @@ main .boton:hover{
 }
 
 
+main .ventas1 h4{
+    display: inline-block;
+    /* display: inline-block;
+    position: relative; */
+    font-size: 14px;
+}
+
+
 
 
 /* seccion shop local */
