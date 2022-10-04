@@ -360,7 +360,6 @@ main .productos{
     padding-left: 180px;
     font-size: 14px;
 }
-
 main .open{
     display: block;
     margin-top: -40px;
@@ -375,6 +374,8 @@ main .contenedor2{
     padding: 35px 160px;
     text-align: center;
 }
+
+/* imagenes productos */
 main .ventas1 span{
     width: 380px;
     height: 500px;
@@ -386,7 +387,6 @@ main .ventas1 span{
     border-radius: 7px;
     background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg");
 }
-
 main .ventas2 span{
     width: 380px;
     height: 500px;
@@ -398,7 +398,7 @@ main .ventas2 span{
     border-radius: 7px;
     background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e8542c1248e59128e08e3e9_ryan-holloway-JyDmUaXMib4-unsplash.jpg");
 }
-main .ventas3 span{
+main .imagenmochila{
     width: 380px;
     height: 500px;
     display: block;
@@ -409,6 +409,8 @@ main .ventas3 span{
     border-radius: 7px;
     background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e85425605cae11f20d46181_denisse-leon-J7CjWufjmg4-unsplash.jpg");
 }
+
+/* boton sale imagen mochila */
 main .ventas3 span button{
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -421,7 +423,30 @@ main .ventas3 span button{
     margin-left: 290px;
     margin-top: 20px;
 }
-main .ventas1 button{
+
+
+
+/* texto debajo de los productos */
+main .contenedor2 h4{
+    display: block;
+    font-size: 19px;
+    padding-top: 5%;
+    font-weight:lighter;
+}
+main .contenedor2 p{
+    display: block;
+    font-size: 14px;
+    margin-top: 2%;
+    font-weight:bolder;
+}
+main .precioanterior{
+    color: var(--primary-color);
+    text-decoration:line-through;
+}
+
+
+/* botones details */
+main .contenedor2 button{
     width: 100px;
     height: 35px;
     display: block;
@@ -430,42 +455,12 @@ main .ventas1 button{
     border-color:rgba(0, 0, 0, 0%);
     background-color:var(--primary-color);
     color: var(--light-color);
+    margin-left: 37%;
+    margin-top: 5%;
 }
-main .ventas1 button:hover{
+main .contenedor2 button:hover{
     background-color: var(--secondary-color);
 }
-
-
-main .ventas2 button{
-    width: 100px;
-    height: 35px;
-    display: block;
-    border-radius: 5px;
-    font-size: 15PX;  
-    border-color:rgba(0, 0, 0, 0%);
-    background-color:var(--primary-color);
-    color: var(--light-color);
-}
-main .ventas2 button:hover{
-    background-color: var(--secondary-color);
-}
-
-
-
-main .ventas3 button{
-    width: 100px;
-    height: 35px;
-    display: block;
-    border-radius: 5px;
-    font-size: 15PX;  
-    border-color:rgba(0, 0, 0, 0%);
-    background-color:var(--primary-color);
-    color: var(--light-color);
-}
-main .ventas3 button:hover{
-    background-color: var(--secondary-color);
-}
-
 
 
 
@@ -479,22 +474,55 @@ main .boton{
     border-color:rgba(0, 0, 0, 0%);
     background-color:var(--secondary-color);
     color: var(--light-color);
+    margin-left: 44%;
+    margin-top: 1%;
 }
 main .boton:hover{
     background-color: var(--primary-color);
 }
 
 
-main .ventas1 h4{
+/* seccion shop local */
+main .shoplocal{
     display: block;
-    font-size: 15px;
+    margin-top: 8%;
+    width: 80%;
+    height: 50%;
+    background-color: var(--secondary-color);
+    color:var(--light-color);
+}
+
+
+/* footer */
+footer .footer{
+    margin-top: 5%;
+    background-color: var(--secondary-color);
+    color:var(--light-color);
+    padding-top: 4%;
+    padding-bottom: 3.5%;
+}
+/* footer logo */
+footer .footer span{
+    padding-left: 11.5%;
+}
+footer .redessociales{
+    justify-content:space-around;
+    display: inline-block;
+    background-color: aqua;
+}
+footer .redessociales a{
+    text-decoration: none;
 }
 
 
 
-
-/* seccion shop local */
-main .shoplocal{
+footer p{
     background-color: var(--secondary-color);
     color:var(--light-color);
+    text-align: center;
+    padding-bottom: 1.5%;
+    font-size: 12px;
+}
+footer p a{
+    color:var(--primary-color)
 }
