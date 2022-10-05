@@ -14,7 +14,10 @@
     --dark-color:#333;
 }
 
+
+
 header{
+    z-index: 10;
     width: 100vw;
     height: 150px;
     position:fixed;
@@ -82,6 +85,7 @@ header .menu div a:hover{
     background-color: var(--secondary-color);
 }
 
+
 header .menu div button{
     width: 45px;
     height: 35px;
@@ -108,39 +112,43 @@ header .menu div button span{
     text-align: center;
 }
 
+
+
 main{
     padding-top: 150px;
     display: inline-block;
-}
+} 
 
-main .imagen{
-    width: 100%;
+main .banner1{
+    width: 100vw;
     height: 550px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     border:none;
     background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");    
 }
 
-main .imagen h1{
+main .banner1 h1{
     display: block;
     font-size: 60px;
-    padding-top:  140px;
+    padding: 0;
+    padding-top:  140px;    
     padding-left: 175px;
     color: var(--light-color);
 }
 
-main .imagen p{
-    display: block;
+main .banner1 p{
     font-size: 17px;
+    padding: 0;
     padding-top:  20px;
     padding-left: 175px;
     line-height: 1.5;
     color: var(--light-color);
 }
 
-main .imagen button{
+main .banner1 button{
+    margin: 0;
     width: 140px;
     height: 35px;
     display: block;
@@ -153,7 +161,7 @@ main .imagen button{
     color: var(--light-color);   
     transition: all 0.2s ease;
 }
-main .imagen button:hover{
+main .banner1 button:hover{
     background-color: var(--light-color);
     color: var(--secondary-color);
 }
@@ -161,15 +169,12 @@ main .imagen button:hover{
 main .info{
     width: 100%;
     height: 800px;
-    /* background-color:var(--light-color); */
 }
 
 main .info div p span{
     display: inline-block;
     margin-top: 75px;
     padding-left: 180px;
-    /* display: inline-block;
-    position: relative; */
     font-size: 14px;
 }
 
@@ -177,8 +182,6 @@ main .info div h2{
     display: inline-block;
     padding-top: 5px;
     padding-left: 180px;
-    /* display: inline-block;
-    position: absolute; */
     font-size: 40px;
 }
 
@@ -308,16 +311,16 @@ main .imagen3{
 }
 
 
-main .imagen4{
-    width: 100%;
+main .banner2{
+    width: 100vw;
     height: 550px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     border:none;
     background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");    
 }
-main .imagen4 h2{
+main .banner2 h2{
     display: block;
     font-size: 45px;
     padding-top:  160px;
@@ -325,7 +328,7 @@ main .imagen4 h2{
     text-align: end;
     color: var(--light-color);
 }
-main .imagen4 p{
+main .banner2 p{
     display: block;
     font-size: 17px;
     margin-right: 150px;
@@ -334,7 +337,7 @@ main .imagen4 p{
     line-height: 1.5;
     color: var(--light-color);
 }
-main .imagen4 button{
+main .banner2 button{
     width: 200px;
     height: 35px;
     display: block;
@@ -342,12 +345,12 @@ main .imagen4 button{
     background-color:var(--light-color);
     border-radius: 5px;
     margin-top: 25px;
-    margin-left: 1160px;
+    margin-left: 77vw;
     font-size: 15PX;
     color: var(--secondary-color);   
     transition: all 0.2s ease;
 }
-main .imagen4 button:hover{
+main .banner2 button:hover{
     background-color: var(--primary-color);
     color: var(--light-color);
 }
@@ -486,11 +489,39 @@ main .boton:hover{
 main .shoplocal{
     display: block;
     margin-top: 8%;
-    width: 80%;
-    height: 50%;
+    margin-left: 27%;
+    width:65%;
+    height: 525px;
+    border-radius: 5px;
     background-color: var(--secondary-color);
     color:var(--light-color);
 }
+main .shoplocal h2{
+    display: block;
+padding-top: 50px;
+    margin-left: 38%;
+    font-size: 40px;
+}
+main .shoplocal p{
+    padding-top: 10px;
+    margin-left: 38%;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+
+main .señora{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:70%;
+    border:none;
+    border-radius: 7px;
+    background-image: url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fe3910db4fde2e69f396_christiann-koepke-dQyS2pMYtok-unsplash%20(1).jpg");
+}
+
 
 
 /* footer */
@@ -508,7 +539,7 @@ footer .footer span{
 footer .redessociales{
     justify-content:space-around;
     display: inline-block;
-    background-color: aqua;
+    margin-left: 80%;
 }
 footer .redessociales a{
     text-decoration: none;
@@ -526,3 +557,12 @@ footer p{
 footer p a{
     color:var(--primary-color)
 }
+
+
+
+
+
+
+/* @media (max-width:(100%)){   
+    
+} */
