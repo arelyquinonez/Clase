@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biznus Template</title>
     <link rel="stylesheet" href="replicar.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <!-- https://biznus-template.webflow.io/ -->
 </head>
 <body>
+    <div class="responsive">
     <header>
         <section class="covid">
             <button>Announcement</button>
@@ -37,13 +39,13 @@
             <button> <b>Shop Merch</b></button>
         </section>
         <section class="info">
-            <div>
+            <div class="infotexto">
                 <p>
                     <span>WAYS TO SUPPORT</span>
                     <h2>Support Acme Outdoors.</h2>
+                    <p class="covi">COVID-19 has forced us to close our retail space, but we need <br> support from patrons like yourself now more than ever. Below, we’ve <br> listed the best ways to help us through this season.</p>
                 </p>
-                <p class="covi">COVID-19 has forced us to close our retail space, but we need <br> support from patrons like yourself now more than ever. Below, we’ve <br> listed the best ways to help us through this season.</p>
-            </div>
+                </div>
             <div class="contenedor">
                 <article class="cuadro1">
                     <div>
@@ -107,10 +109,8 @@
             </div>
             <button class="boton"><b>View All Products</b></button>
         </section>
-        <section>
-            <span class="señora">
-                <img src="" alt="">
-            </span>
+        <section class="seccionseñora">
+            <span class="señora"></span>
             <div class="shoplocal">
                 <h2>Shop Local.</h2>
                 <p> We know that during COVID-19, a lot of folks <br> around the city and state are feeling uneasy about <br> the future - we’re not sure what the future holds <br> either. <br><br>
@@ -145,5 +145,6 @@
         </div>
         <p>Made In <a href=""> Webflow</a>. © 2020.</p>
     </footer>
+    </div>
 </body>
 </html>

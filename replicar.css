@@ -14,7 +14,11 @@
     --dark-color:#333;
 }
 
-
+.responsive{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
 header{
     z-index: 10;
@@ -166,9 +170,17 @@ main .banner1 button:hover{
     color: var(--secondary-color);
 }
 
-main .info{
+/* main .info{
     width: 100%;
     height: 800px;
+    flex-wrap: wrap;
+} */
+
+main .infotexto{
+    width: 100%;
+    height: 150px;
+    flex-wrap: wrap;
+
 }
 
 main .info div p span{
@@ -181,26 +193,33 @@ main .info div p span{
 main .info div h2{
     display: inline-block;
     padding-top: 5px;
-    padding-left: 180px;
+    margin-left: 180px;
     font-size: 40px;
+    flex-wrap: wrap;
 }
 
 main .covi{
-    display: block;
+    display:inline-block;
     font-size: 15px;
-    padding-left: 800px;
-    margin-top: -70px;
-    padding-bottom: 15px;
+    margin-left: 12%;
     line-height: 1.5;
+    flex-wrap: wrap;
 }
 
+
+
 main .contenedor{
+    width: 100%;
+    height: 450px;
     justify-content:space-around;
     display: flex;
     align-items: center;
     padding: 45px 140px;
+    flex-wrap: wrap;
 }
 
+
+/* cuadro shop product */
 main .cuadro1{
     width: 350px;
     height: 355px;
@@ -238,6 +257,7 @@ main .imagen1{
 
 
 
+/* cuadro donate */
 main .cuadro2{
     width: 350px;
     height: 355px;
@@ -275,6 +295,7 @@ main .imagen2{
 
 
 
+/* cuadro buy gift cards */
 main .cuadro3{
     width: 350px;
     height: 355px;
@@ -311,9 +332,11 @@ main .imagen3{
 }
 
 
+/* banner 2 */
 main .banner2{
-    width: 100vw;
+    width: 100%;
     height: 550px;
+    margin-top: 10%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -356,6 +379,7 @@ main .banner2 button:hover{
 }
 
 
+
 /* seccion de productos */
 main .productos{
     display: inline-block;
@@ -376,6 +400,7 @@ main .contenedor2{
     align-items: center;
     padding: 35px 160px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 /* imagenes productos */
@@ -446,8 +471,6 @@ main .precioanterior{
     color: var(--primary-color);
     text-decoration:line-through;
 }
-
-
 /* botones details */
 main .contenedor2 button{
     width: 100px;
@@ -485,17 +508,25 @@ main .boton:hover{
 }
 
 
+main .seccionseñora{
+    width: 100%;
+    display: inline-block;
+    height: 90vh;
+}
+
+
 /* seccion shop local */
 main .shoplocal{
-    display: block;
+    display: inline-block;
     margin-top: 8%;
     margin-left: 27%;
-    width:65%;
+    width:60%;
     height: 525px;
     border-radius: 5px;
     background-color: var(--secondary-color);
     color:var(--light-color);
 }
+
 main .shoplocal h2{
     display: block;
 padding-top: 50px;
@@ -511,9 +542,13 @@ main .shoplocal p{
 
 
 main .señora{
-    width: 300px;
-    height: 400px;
-    display: inline-block;
+    width: 350px;
+    height: 450px;
+    display: block;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 180px;
+    justify-content: center;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:70%;
