@@ -170,11 +170,11 @@ main .banner1 button:hover{
     color: var(--secondary-color);
 }
 
-/* main .info{
+main .info{
     width: 100%;
     height: 800px;
     flex-wrap: wrap;
-} */
+}
 
 main .infotexto{
     width: 100%;
@@ -483,6 +483,7 @@ main .contenedor2 button{
     color: var(--light-color);
     margin-left: 37%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 main .contenedor2 button:hover{
     background-color: var(--secondary-color);
@@ -598,6 +599,8 @@ footer p a{
 
 
 
-/* @media (max-width:(100%)){   
-    
+/* @media screen and (max-width:480px){   
+    main .seccionseñora{
+        height: 80vh;
+    }
 } */
